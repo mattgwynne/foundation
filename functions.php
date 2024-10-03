@@ -28,6 +28,9 @@ function register_block_styles() {
 		),
 		'core/image'                    => array(
 			'radius-image'     => __( 'Radius Image', ),
+			'position-absolute-left'  => __('Position Absolue Left'),
+			'position-absolute-right'  => __('Position Absolue Right'),
+			'position-absolute-bottom'  => __('Position Absolue Bottom'),
 		),
 		'core/group'                    => array(
 			'minimal-card'     => __( 'Minimal Card', ),
