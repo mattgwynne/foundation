@@ -1,12 +1,23 @@
 :root {
 	--radius: .5rem;
 	--button-radius: 2rem;
-	--three-col-grid: 3fr 2fr 2fr;
+	--three-col-grid: 1fr 1fr 1fr;
 	--two-col-grid: 1fr 1fr;
 	--one-col-grid: 1fr;
-	--thin-border: 1px solid;
-	--thick-border: 5px solid;
+	 /* Global */
+	 --border-size: 1px;   
+	 --border-style: solid;   
+	 /* Local */
+	 --border-color-light: var(--wp--preset--color--primary-100);
+	 --border-color-dark: var(--wp--preset--color--primary-700);
+	 /* Full Tokens */
+	 --border: var(--border-size) var(--border-style) var(--border-color-light);
+	 --border-dark: var(--border-size) var(--border-style) var(--border-color-dark);
+	 --border-warning: var(--border-size) var(--border-style) var(--warning);
+	 --border-danger: var(--border-size) var(--border-style) var(--danger);
+	 --border-success: var(--border-size) var(--border-style) var(--success);
 	--text-width: 55ch;
+	--light-shadow: 0 0 10px var(--wp--preset--color--primary-200);
 }
 .drop-shadow {
 box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.15);
@@ -88,6 +99,13 @@ section {
 --------------------------------------------- */
 .testimonials-grid  {
 	grid-template-columns: var(--three-col-grid);
-	gap: var(--wp--preset--spacing--30);
+	gap: var(--wp--preset--spacing--20);
+	padding: var(--wp--preset--spacing--30);;
+}
+
+@media screen and (max-width: 768px) {
+	.testimonials-grid {
+		grid-template-columns: var(--one-col-grid);
+	}
 }
 
