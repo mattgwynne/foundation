@@ -1,0 +1,10 @@
+/* Minimal Card
+--------------------------------------------- */
+
+.is-style-minimal-card {
+    border-radius: var(--radius);
+    border: var(--thin-border);
+    border-color: var(--wp--preset--color--grey-300);
+    background-color: var(--wp--preset--color--primary-50);
+    padding: var(--wp--preset--spacing--20);
+}

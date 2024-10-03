@@ -1,0 +1,3 @@
+.wp-block-image:not(.is-style-rounded).is-style-radius-image  {
+	border-radius: 100px;
+}
