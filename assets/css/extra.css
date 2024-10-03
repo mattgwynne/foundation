@@ -1,7 +1,7 @@
 :root {
 	--radius: .5rem;
 	--button-radius: 2rem;
-	--four-col-grid: 1fr 3fr 2fr 2fr;
+	--three-col-grid: 3fr 2fr 2fr;
 	--two-col-grid: 1fr 1fr;
 	--one-col-grid: 1fr;
 	--thin-border: 1px solid;
@@ -87,7 +87,7 @@ section {
 /* Testimonials Grid
 --------------------------------------------- */
 .testimonials-grid  {
-	grid-template-columns: var(--four-col-grid);
+	grid-template-columns: var(--three-col-grid);
 	gap: var(--wp--preset--spacing--30);
 }
 
