@@ -67,6 +67,11 @@
 					"gradient": "linear-gradient(135deg, var(--wp--preset--color--primary-200) 0%, var(--wp--preset--color--primary-50) 100%)",
 					"name": "Gradient 8",
 					"slug": "gradient-8"
+				},
+				{
+					"gradient": "linear-gradient(135deg, #f5f7fa 0%, var(--wp--preset--color--secondary-100) 100%)",
+					"name": "Gradient 9",
+					"slug": "gradient-9"
 				}
 			],
 			"palette": [
@@ -657,7 +662,7 @@
 				}
 			},
 			"h1": {
-				"typography": {
+					"typography": {
 					"fontSize": "var(--wp--preset--font-size--xxxxl)",
 					"letterSpacing": "-0.02em"
 				}
@@ -691,6 +696,9 @@
 				}
 			},
 			"heading": {
+				"color": {
+				"text": "var(--wp--preset--color--primary-500)"
+			},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--manrope)",
 					"fontWeight": "500",

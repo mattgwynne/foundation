@@ -16,7 +16,7 @@
 	 --border-warning: var(--border-size) var(--border-style) var(--warning);
 	 --border-danger: var(--border-size) var(--border-style) var(--danger);
 	 --border-success: var(--border-size) var(--border-style) var(--success);
-	--text-width: 55ch;
+	--text-width: 50ch;
 	/*shadows */
 	--shadow: 0px 10px 15px 0px rgba(0,0,0,0.15);
 	--light-shadow: 0 0 10px var(--wp--preset--color--primary-200);
@@ -67,7 +67,13 @@ section {
 	padding-bottom: var(--wp--preset--spacing--40);
 }
 
-/* Image text two column hero grid
+.hero-section {
+	padding-top: var(--wp--preset--spacing--40);
+	padding-bottom: var(--wp--preset--spacing--40);
+	background-image: var(--wp--preset--gradient--gradient-9)
+}
+
+/* Hero grid two column
 --------------------------------------------- */
 .hero-grid {
 	grid-template-columns: var(--two-col-grid);
@@ -78,6 +84,10 @@ section {
 	.hero-grid {
 		grid-template-columns: var(--one-col-grid);
 	}
+}
+
+.hero-grid__text {
+	max-width: var(--text-width);
 }
 
 /* Image text two column grid
@@ -128,5 +138,5 @@ section {
 
 .floating-header {
 	z-index: var(--z--90);
-	box-shadow: var(--light-shadow); 
+	border-bottom: var(--border);
 }
