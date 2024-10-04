@@ -11,3 +11,17 @@
 .is-style-minimal-card:hover {
     box-shadow: var(--light-shadow);
 }
+
+/* Testimonials Grid
+--------------------------------------------- */
+.is-style-testimonials-grid  {
+	grid-template-columns: var(--three-col-grid);
+	gap: var(--wp--preset--spacing--20);
+	padding: var(--wp--preset--spacing--30);;
+}
+
+@media screen and (max-width: 768px) {
+	.is-style-testimonials-grid {
+		grid-template-columns: var(--one-col-grid);
+	}
+}
