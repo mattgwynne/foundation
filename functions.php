@@ -16,6 +16,13 @@ function foundation_add_editor_style(){
 add_action('after_setup_theme','foundation_add_editor_style');
 
 
+// load hugeicon css
+
+function add_to_head() {
+	echo '<script> <link rel="stylesheet" href="/assets/icons/hugeicons-font.css"> </script>';
+}
+add_action( 'wp_head', 'add_to_head' );
+
 /**
  * Add block style variations.
  */

@@ -1,6 +1,7 @@
 :root {
 	--radius: .5rem;
 	--button-radius: 2rem;
+	/* Grids */
 	--three-col-grid: 1fr 1fr 1fr;
 	--two-col-grid: 1fr 1fr;
 	--one-col-grid: 1fr;
@@ -8,7 +9,7 @@
 	 --border-size: 1px;   
 	 --border-style: solid;   
 	 /* Local */
-	 --border-color-light: var(--wp--preset--color--primary-100);
+	 --border-color-light: var(--wp--preset--color--grey-200);
 	 --border-color-dark: var(--wp--preset--color--primary-700);
 	 /* Full Tokens */
 	 --border: var(--border-size) var(--border-style) var(--border-color-light);
@@ -71,6 +72,10 @@ section {
 	padding-top: var(--wp--preset--spacing--40);
 	padding-bottom: var(--wp--preset--spacing--40);
 	background-image: var(--wp--preset--gradient--gradient-9)
+}
+.no-pad-section {
+	padding-top: var(--wp--preset--spacing--00);
+	padding-bottom: var(--wp--preset--spacing--00);
 }
 
 /* Hero grid two column

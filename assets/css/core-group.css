@@ -4,7 +4,7 @@
 .is-style-minimal-card {
     border: var(--border);
     border-radius: var(--radius);
-    background-color: var(--wp--preset--color--primary-50);
+    background-color: var(--wp--preset--color--white);
     padding: var(--wp--preset--spacing--20);
 }
 
@@ -12,16 +12,3 @@
     box-shadow: var(--light-shadow);
 }
 
-/* Testimonials Grid
---------------------------------------------- */
-.is-style-testimonials-grid  {
-	grid-template-columns: var(--three-col-grid);
-	gap: var(--wp--preset--spacing--20);
-	padding: var(--wp--preset--spacing--30);;
-}
-
-@media screen and (max-width: 768px) {
-	.is-style-testimonials-grid {
-		grid-template-columns: var(--one-col-grid);
-	}
-}
