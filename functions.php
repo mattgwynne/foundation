@@ -41,6 +41,7 @@ function register_block_styles() {
 		),
 		'core/group'                    => array(
 			'minimal-card'     => __( 'Minimal Card', ),
+			'dark-card'        => __( 'Dark Card', ),
 		),
 		'core/list'                      => array(
 			'list-check'        => __( 'Check', 'foundation' ),
