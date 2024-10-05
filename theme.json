@@ -656,7 +656,7 @@
 				},
 				"border": {
 					"color": "transparent",
-					"radius": "var(--button-radius)",
+					"radius": "var(--xl-rem)",
 					"style": "solid",
 					"width": "0px"
 				},
