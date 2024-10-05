@@ -26,3 +26,28 @@
 .is-style-dark-card .wp-block-heading {
     color: #fff !important; 
 }
+
+/* Testimonials Grid
+--------------------------------------------- */
+
+.is-style-testimonials-grid {
+	grid-template-columns: var(--three-col-grid);
+	gap: var(--wp--preset--spacing--20);
+}
+
+@media screen and (max-width: 768px) {
+	.is-style-testimonials-grid {
+		grid-template-columns: var(--one-col-grid);
+	}
+}
+
+.is-style-testimonial-grid__card {
+    border: var(--border-m);
+    border-radius: var(--m-rem);
+    background-color: var(--wp--preset--color--grey-200) !important;
+    padding: var(--wp--preset--spacing--20) !important;
+}
+
+.is-style-testimonial-grid__card:hover {
+    box-shadow: var(--light-shadow);
+}
