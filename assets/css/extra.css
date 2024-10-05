@@ -28,11 +28,11 @@
 	
 	
 	/* Text Width */
-	--text-width: 50ch;
+	--text-width: 55ch;
 
 	/*shadows */
 	--shadow: 0px 10px 15px 0px rgba(0,0,0,0.15);
-	--light-shadow: 0 0 10px var(--wp--preset--color--primary-200);
+	--light-shadow: 0 0 10px var(--wp--preset--color--primary-100);
 	
 	/* Z-Index */
 	--z--0: 0;
@@ -47,11 +47,18 @@
 	--z--90: 90;
 	--z--bottom: -1;
 }
+
+/* Misc
+--------------------------------------------- */
 .drop-shadow {
 box-shadow: var(--shadow);
 }
 .drop-shadow-2 {
 	box-shadow: var(--light-shadow);
+}
+
+.bottom {
+	z-index: var(--z--bottom);
 }
 
 
@@ -63,6 +70,10 @@ box-shadow: var(--shadow);
 
 .wp-block-button__link {
  display: inline;
+}
+
+.text-width {
+	max-width: var(--text-width);
 }
 
 
@@ -133,6 +144,33 @@ section {
 		grid-template-columns: var(--one-col-grid);
 	}
 }
+
+/* Testimonials Grid
+--------------------------------------------- */
+
+.testimonials-grid {
+	grid-template-columns: var(--three-col-grid);
+	gap: var(--wp--preset--spacing--20);
+	padding: var(--wp--preset--spacing--20);
+}
+
+@media screen and (max-width: 768px) {
+	.testimonials-grid {
+		grid-template-columns: var(--one-col-grid);
+	}
+}
+
+.testimonial-grid__card {
+    border: var(--border-m);
+    border-radius: var(--m-rem);
+    background-color: var(--wp--preset--color--grey-50) !important;
+    padding: var(--wp--preset--spacing--20) !important;
+}
+
+.testimonial-grid__card:hover {
+    box-shadow: var(--light-shadow);
+}
+
 
 /* Floating Header
 --------------------------------------------- */
