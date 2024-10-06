@@ -18,14 +18,20 @@
 
 /* Arrow Button
 --------------------------------------------- */
+.wp-block-button.is-style-arrow-button {
+	margin-top: var(--wp--preset--spacing--10) !important;
+}
 .wp-block-button.is-style-arrow-button .wp-block-button__link::after {
 	content: url(icon-circle-right.svg); 
 	vertical-align: top; 
 	margin-left: 1.75rem; 
 	display: inline-block; 
-	margin-top: 0.1rem; 
 	margin-right:-0.5rem; 
 }
+
+.wp-block-button.is-style-arrow-button .wp-block-button__link {
+	display: inline;
+   }
 
 /* Minimal Button
 --------------------------------------------- */
