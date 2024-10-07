@@ -42,7 +42,6 @@ function register_block_styles() {
 		'core/group'                    => array(
 			'minimal-card'     => __( 'Minimal Card', ),
 			'dark-card'        => __( 'Dark Card', ),
-			'testimonials-grid'        => __( 'Testimonials Grid', ),
 		),
 		'core/list'                      => array(
 			'list-check'        => __( 'Check', 'foundation' ),
