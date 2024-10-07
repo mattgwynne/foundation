@@ -1,9 +1,9 @@
 :root {
 	/* Grids */
-	--four-col-grid: 1fr 1fr 1fr 1fr;
-	--three-col-grid: 1fr 1fr 1fr;
-	--two-col-grid: 1fr 1fr;
-	--one-col-grid: 1fr;
+	--grid-4: 1fr 1fr 1fr 1fr;
+	--grid-3: 1fr 1fr 1fr;
+	--grid-2: 1fr 1fr;
+	--grid-1: 1fr;
 
 	--grid-gap: var(--wp--preset--spacing--40);
 	--content-gap: var(--wp--preset--spacing--20);
@@ -100,13 +100,13 @@ section {
 /* Grids
 --------------------------------------------- */
 .hero-grid {
-	grid-template-columns: var(--two-col-grid);
+	grid-template-columns: var(--grid-2);
 	gap: var(--wp--preset--spacing--20);
 }
 
 @media screen and (max-width: 768px) {
 	.hero-grid {
-		grid-template-columns: var(--one-col-grid);
+		grid-template-columns: var(--grid-1);
 	}
 }
 
@@ -132,13 +132,13 @@ section {
 }
 
 .talking-points-card  {
-	grid-template-columns: var(--two-col-grid);
+	grid-template-columns: var(--grid-2);
 	gap: var(--grid-gap);
 }
 
 @media screen and (max-width: 768px) {
 	.talking-points-card   {
-		grid-template-columns: var(--one-col-grid);
+		grid-template-columns: var(--grid-1);
 	}
 }
 
@@ -168,13 +168,13 @@ section {
 }
 
 .grid--3  {
-	grid-template-columns: var(--three-col-grid);
+	grid-template-columns: var(--grid-3);
 	gap: var(--wp--preset--spacing--20);
 }
 
 @media screen and (max-width: 768px) {
 	.grid--3 {
-		grid-template-columns: var(--one-col-grid);
+		grid-template-columns: var(--grid-1);
 	}
 }
 
@@ -182,14 +182,14 @@ section {
 --------------------------------------------- */
 
 .testimonials-grid {
-	grid-template-columns: var(--three-col-grid);
+	grid-template-columns: var(--grid-3);
 	gap: var(--wp--preset--spacing--20);
 	padding: var(--wp--preset--spacing--20);
 }
 
 @media screen and (max-width: 768px) {
 	.testimonials-grid {
-		grid-template-columns: var(--one-col-grid);
+		grid-template-columns: var(--grid-1);
 	}
 }
 

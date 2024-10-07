@@ -714,7 +714,7 @@
 				"text": "var(--wp--preset--color--primary-500)"
 			},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--inter)",
+					"fontFamily": "var(--wp--preset--font-family--league)",
 					"fontWeight": "700"
 				}
 			}
