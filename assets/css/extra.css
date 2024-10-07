@@ -143,11 +143,19 @@ section {
 }
 
 .talking-point-card__content-wrapper {
-	
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 	
 }
 
-.talking-point-card__media-wrapper {}
+.talking-point-card__media-wrapper {
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .reverse-order {
 	order: -1;
