@@ -4,7 +4,7 @@
 .is-style-minimal-card {
     border: var(--border-m);
     border-radius: var(--m-rem);
-    background-color: var(--wp--preset--color--grey-200) !important;
+    background-color: var(--wp--preset--color--grey-100) !important;
     padding: var(--wp--preset--spacing--20) !important;
 }
 
