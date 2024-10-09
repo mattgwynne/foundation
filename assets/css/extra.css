@@ -184,7 +184,6 @@ section {
 .testimonials-grid {
 	grid-template-columns: var(--grid-3);
 	gap: var(--wp--preset--spacing--20);
-	padding: var(--wp--preset--spacing--20);
 }
 
 @media screen and (max-width: 768px) {
@@ -210,7 +209,7 @@ section {
 
 .floating-header {
 	z-index: var(--z--90);
-	border-bottom: var(--border);
+	border-bottom: var(--border-m);
 }
 
 /* Padding
