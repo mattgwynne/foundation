@@ -97,7 +97,7 @@ section {
 	padding-bottom: var(--wp--preset--spacing--00);
 }
 
-/* Grids
+/* Hero Grid
 --------------------------------------------- */
 .hero-grid {
 	grid-template-columns: var(--grid-2);
@@ -167,6 +167,9 @@ section {
 }
 }
 
+/* Grid Utility
+--------------------------------------------- */
+
 .grid--3  {
 	grid-template-columns: var(--grid-3);
 	gap: var(--wp--preset--spacing--20);
@@ -194,8 +197,8 @@ section {
 
 .testimonial-grid__card {
     border: var(--border-m);
-    border-radius: var(--m-rem);
-    background-color: var(--wp--preset--color--grey-50) !important;
+    border-radius: var(--radius-l);
+    background-color: var(--wp--preset--color--grey-100) !important;
     padding: var(--wp--preset--spacing--20) !important;
 }
 
@@ -294,22 +297,22 @@ section {
 --------------------------------------------- */
 
 .rounded--xxl {
-	border-radius: var(--xxl-rem)
+	border-radius: var(--xxl-rem);
 }
 .rounded--xl {
-	border-radius: var(--xl-rem)
+	border-radius: var(--xl-rem);
 }
 .rounded--l {
-	border-radius: var(--l-rem)
+	border-radius: var(--l-rem);
 }
 .rounded--m {
-	border-radius: var(--m-rem)
+	border-radius: var(--m-rem);
 }
 .rounded--s {
-	border-radius: var(--s-rem)
+	border-radius: var(--s-rem);
 }
 .rounded--xs {
-	border-radius: var(--xxs-rem)
+	border-radius: var(--xxs-rem);
 }
 
 /* Borders
