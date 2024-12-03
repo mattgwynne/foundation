@@ -12,7 +12,7 @@
 
 .wp-block-button.is-style-outline .wp-block-button__link:hover {
 	color: var(--wp--preset--color--secondary-700) !important;
-	outline-color: var(--wp--preset--color--seocndary-700);
+	outline-color: var(--wp--preset--color--secondary-700);
 }
 
 

@@ -2,26 +2,21 @@
 
 // Loads style.css and extra.css in the front end
 function mytheme_extra_style() {
-	    wp_enqueue_style('mytheme_main_style', get_stylesheet_uri()); 
-     wp_enqueue_style('mytheme_extra_style', get_theme_file_uri('/assets/css/extra.css'));
+	wp_enqueue_style('mytheme_main_style', get_stylesheet_uri()); 
+ wp_enqueue_style('mytheme_extra_style', get_theme_file_uri('/assets/css/extra.css'));
+ wp_enqueue_style('mytheme_extra_style', get_theme_file_uri('/foundation-child/assets/css/extra.css'));
 }
 add_action( 'wp_enqueue_scripts', 'mytheme_extra_style' );
 
 
 // Loads style.css in the editor
 function foundation_add_editor_style(){
-	add_editor_style('/style.css');
-	add_editor_style('/assets/css/extra.css');
-   }
+add_editor_style('/style.css');
+add_editor_style('/assets/css/extra.css');
+add_editor_style('/foundation-child/assets/css/extra.css');
+}
 add_action('after_setup_theme','foundation_add_editor_style');
 
-
-// load hugeicon css
-
-function add_to_head() {
-	echo '<script> <link rel="stylesheet" href="/assets/icons/hugeicons-font.css"> </script>';
-}
-add_action( 'wp_head', 'add_to_head' );
 
 /**
  * Add block style variations.
